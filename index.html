@@ -1,11 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mi Template Básico</title>
+    <!-- Vinculamos el archivo CSS -->
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    
+    <header>
+        <h1>Bienvenido a Mi Página</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Acerca de</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Inicio</h2>
+            <p>Esta es la sección principal de la página.</p>
+        </section>
+
+        <section id="about">
+            <h2>Acerca de</h2>
+            <p>Información sobre nosotros.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contacto</h2>
+            <p>Puedes contactarnos en <a href="mailto:info@example.com">info@example.com</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mi Página</p>
+    </footer>
+
+    <!-- Vinculamos el archivo JavaScript -->
+    <script src="js/scripts.js"></script>
 </body>
 </html>

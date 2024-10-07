@@ -2,6 +2,7 @@ export interface CV {
   basics: Basics;
   awards: Array<Awards>;
   projects: Array<Projects>;
+  language: Array<Language>;
 }
 
 interface Basics {
@@ -40,7 +41,13 @@ interface Awards {
 
 interface Projects {
   name: string;
-  isActive: boolean;
+  description: string;
+  highlights: Highlight;
+  url: string;
+  github?: string;
+}
+interface Language {
+  name: string;
   description: string;
   highlights: Highlight;
   url: string;

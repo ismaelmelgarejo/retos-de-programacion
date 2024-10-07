@@ -67,5 +67,27 @@
       ],
       "url": "https://ecommerce.com"
     }
+  ],
+  "language": [
+    {
+      "name": "Python",
+      "description": "Ejercicios realizados en el lenguaje Python.",
+      "highlights": [
+        "Built with React and Tailwind CSS",
+        "Includes a blog and contact form"
+      ],
+      "url": "https://johndoe.dev",
+      "github": "https://github.com"
+    },
+    {
+      "name": "JavaScript",
+      "description": "Ejercicios realizados en el lenguaje JavaScript.",
+      "highlights": [
+        "Built with JavaScript and OpenWeatherMap API",
+        "Responsive design"
+      ],
+      "url": "https://weatherapp.com",
+      "github": "https://github.com"
+    }
   ]
 }

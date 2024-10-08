@@ -76,7 +76,7 @@
         "Built with React and Tailwind CSS",
         "Includes a blog and contact form"
       ],
-      "url": "https://johndoe.dev",
+      "url": "/python/",
       "github": "https://github.com"
     },
     {
@@ -86,7 +86,7 @@
         "Built with JavaScript and OpenWeatherMap API",
         "Responsive design"
       ],
-      "url": "https://weatherapp.com",
+      "url": "/javaScript/",
       "github": "https://github.com"
     }
   ]

@@ -11,7 +11,7 @@ import termios
 
 #Comentario de una linea
 """Comentario de un bloque Linea 1
-    Comentario de un bloque Linea 2"""
+   Comentario de un bloque Linea 2"""
 
 """3 - Crea una variable (y una constante si el lenguaje lo soporta)."""
 mi_variable = 10

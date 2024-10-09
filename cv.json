@@ -92,14 +92,24 @@
   ],
   "python": [
     {
-      "name": "Ejercicio 1 con Python",
-      "description": "Ejercicios realizados en el lenguaje Python.",
+      "name": "Ejercicio 4 con Python",
+      "description": "Ejercicios realizados en el lenguaje JavaScript.",
       "highlights": [
-        "Built with React and Tailwind CSS",
-        "Includes a blog and contact form"
+        "Built with JavaScript and OpenWeatherMap API",
+        "Responsive design"
       ],
-      "url": "/python/",
-      "github": "https://github.com"
+      "url": "",
+      "github": ""
+    },
+    {
+      "name": "Ejercicio 3 con Python",
+      "description": "Ejercicios realizados en el lenguaje JavaScript.",
+      "highlights": [
+        "Built with JavaScript and OpenWeatherMap API",
+        "Responsive design"
+      ],
+      "url": "",
+      "github": ""
     },
     {
       "name": "Ejercicio 2 con Python",
@@ -108,20 +118,40 @@
         "Built with JavaScript and OpenWeatherMap API",
         "Responsive design"
       ],
-      "url": "/javaScript/",
-      "github": "https://github.com"
-    }
-  ],
-  "javascript": [
+      "url": "",
+      "github": ""
+    },
     {
-      "name": "Ejercicio 1 con JavaScript",
+      "name": "SINTAXIS, VARIABLES, TIPOS DE DATOS Y HOLA MUNDO",
       "description": "Ejercicios realizados en el lenguaje Python.",
       "highlights": [
         "Built with React and Tailwind CSS",
         "Includes a blog and contact form"
       ],
-      "url": "/python/",
-      "github": "https://github.com"
+      "url": "https://github.com/ismaelmelgarejo/retos-de-programacion/blob/main/src/components/ejercicios/Python/roadmap/00%20-%20SINTAXIS%2C%20VARIABLES%2C%20TIPOS%20DE%20DATOS%20Y%20HOLA%20MUNDO.py",
+      "github": ""
+    }
+  ],
+  "javascript": [
+    {
+      "name": "Ejercicio 4 con JavaScript",
+      "description": "Ejercicios realizados en el lenguaje Python.",
+      "highlights": [
+        "Built with React and Tailwind CSS",
+        "Includes a blog and contact form"
+      ],
+      "url": "",
+      "github": ""
+    },
+    {
+      "name": "Ejercicio 3 con JavaScript",
+      "description": "Ejercicios realizados en el lenguaje Python.",
+      "highlights": [
+        "Built with React and Tailwind CSS",
+        "Includes a blog and contact form"
+      ],
+      "url": "",
+      "github": ""
     },
     {
       "name": "Ejercicio 2 con JavaScript",
@@ -130,8 +160,18 @@
         "Built with JavaScript and OpenWeatherMap API",
         "Responsive design"
       ],
-      "url": "/javaScript/",
-      "github": "https://github.com"
+      "url": "",
+      "github": ""
+    },
+    {
+      "name": "Ejercicio 1 con JavaScript",
+      "description": "Ejercicios realizados en el lenguaje Python.",
+      "highlights": [
+        "Built with React and Tailwind CSS",
+        "Includes a blog and contact form"
+      ],
+      "url": "",
+      "github": ""
     }
   ]
 }

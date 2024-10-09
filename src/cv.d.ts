@@ -3,8 +3,8 @@ export interface CV {
   awards: Array<Awards>;
   projects: Array<Projects>;
   language: Array<Language>;
-  ejerciciospython: Array<Language>;
-  ejerciciosjavascript: Array<Language>;
+  ejerciciospython: Array<EjerciciosPython>;
+  ejerciciosjavascript: Array<EjerciciosJavaScript>;
 }
 
 interface Basics {

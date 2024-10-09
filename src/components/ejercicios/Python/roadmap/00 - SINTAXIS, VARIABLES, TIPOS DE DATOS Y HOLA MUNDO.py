@@ -1,60 +1,30 @@
 import sys
 import tty
 import termios
-print(" ¿Preparad@ para aprender o repasar el lenguaje de programación que tú quieras?")
-print(" - Recuerda que todas las instrucciones de participación están en el")
-print("   repositorio de GitHub.")
-print("*")
-print(" Lo primero... ¿Ya has elegido un lenguaje?")
-print(" - No todos son iguales, pero sus fundamentos suelen ser comunes.")
-print(" - Este primer reto te servirá para familiarizarte con la forma de participar")
-print("   enviando tus propias soluciones.")
-print("*")
-print(" EJERCICIO:")
-print(" 1 - Crea un comentario en el código y coloca la URL del sitio web oficial del")
-print("   lenguaje de programación que has seleccionado.")
-print(" 2 - Representa las diferentes sintaxis que existen de crear comentarios")
-print("   en el lenguaje (en una línea, varias...).")
-print(" 3 - Crea una variable (y una constante si el lenguaje lo soporta).")
-print(" 4 - Crea variables representando todos los tipos de datos primitivos")
-print("   del lenguaje (cadenas de texto, enteros, booleanos...).")
-print(' 5 - Imprime por terminal el texto: "¡Hola, [y el nombre de tu lenguaje]!"')
-print("*")
-print(" ¿Fácil? No te preocupes, recuerda que esta es una ruta de estudio y")
-print(" debemos comenzar por el principio.")
-print(" ")
-print("Respuestas en el archivo de la ruta de estudio.")
-print(" 1 -")
-print('     * #https://python.org')#https://python.org
-print(" 2 -")
-print('     * Comentario de una linea  (#) ')
-print('         * Ejemplo: # Comentario de una linea')
-print('     * Comentario de un bloque (""") ')
-print('         * Ejemplo: """Comentario de un bloque Linea 1')
-print('                       Comentario de un bloque Linea 2"""')
-print(" 3 -")
-print('     # Variable')
-print('     mi_variable = 10')
-print('     # Constante (por convención)')
-print('     MI_CONSTANTE = 3.14')
-print(' ')
-print(" 4 -")
-print('     # Cadenas de texto')
-print('     cadena_texto = "Hola, Python"')
-print(' ')
-print('     # Enteros')
-print('     entero = 42')
+"""1 - Crea un comentario en el código y coloca la URL del sitio web oficial del
+       lenguaje de programación que has seleccionado."""
 
-print('     # Números de punto flotante')
-print('     punto_flotante = 3.14159')
+#https://python.org
 
-print('     # Booleanos')
-print('     booleano_verdadero = True')
-print('     booleano_falso = False')
+"""2 - Representa las diferentes sintaxis que existen de crear comentarios
+       en el lenguaje (en una línea, varias...)."""
 
-print('     # Números complejos')
-print('     numero_complejo = 1 + 2j')
+#Comentario de una linea
+"""Comentario de un bloque Linea 1
+    Comentario de un bloque Linea 2"""
 
-print(' 5 - Imprime por terminal el texto: "¡Hola, [y el nombre de tu lenguaje]!"')
+"""3 - Crea una variable (y una constante si el lenguaje lo soporta)."""
+mi_variable = 10
+MI_CONSTANTE = 3.14
+"""4 - Crea variables representando todos los tipos de datos primitivos
+       del lenguaje (cadenas de texto, enteros, booleanos...)."""
+cadena_texto = "Hola, Python"
+entero = 42
+punto_flotante = 3.14159
+booleano_verdadero = True
+booleano_falso = False
+numero_complejo = 1 + 2j
+
+"""5 - Imprime por terminal el texto: "¡Hola, [y el nombre de tu lenguaje]!"""""
 nombre_lenguaje = input("Ingresar el nombre de tu lenguaje a lección: ")
 print('     ¡Hola,',nombre_lenguaje,'!')

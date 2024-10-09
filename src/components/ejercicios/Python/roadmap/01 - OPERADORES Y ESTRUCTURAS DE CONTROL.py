@@ -63,16 +63,17 @@ c **= 2
 print("Asignación de exponenciación: c **= 2 = ", c) # 4.0
 c //= 3
 print("Asignación de división entera: c //= 3 = ", c) # 1.0
-"""c &= 1
-print("Asignación AND a nivel de bits:", c) # 1
+c = int(c)
+c &= 1
+print("Asignación AND a nivel de bits: c &= 1 = ", c) # 1
 c |= 2
-print("Asignación OR a nivel de bits:", c)  # 3
+print("Asignación OR a nivel de bits: c |= 2 = ", c)  # 3
 c ^= 1
-print("Asignación XOR a nivel de bits:", c) # 2
+print("Asignación XOR a nivel de bits: c ^= 1 = ", c) # 2
 c <<= 1
-print("Asignación de desplazamiento a la izquierda:", c) # 4
+print("Asignación de desplazamiento a la izquierda: c <<= 1 = ", c) # 4
 c >>= 1
-print("Asignación de desplazamiento a la derecha:", c) # 2"""
+print("Asignación de desplazamiento a la derecha: c >>= 1 = ", c) # 2
 print(" ")
 print("Operadores de Identidad")
 print("-----------------------")

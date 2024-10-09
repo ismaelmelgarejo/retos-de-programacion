@@ -2,8 +2,7 @@
 import Layout from "@/layouts/Layout.astro";
 import About from "@/components/sections/About.astro";
 import Hero from "@/components/sections/Hero.astro";
-import Projects from "@/components/sections/Projects.astro";
-import Language from "@/components/sections/Language.astro";
+import EjerciciosPython from "@/components/sections/ejerciciospython.astro";
 import KeyboardManager from "@/components/KeyboardManager.astro";
 import ThemeSwitch from "@/components/ThemeSwitch.astro";
 import { basics } from "@cv";
@@ -18,8 +17,7 @@ const { name, label } = basics;
 			<ThemeSwitch />
 		</div>
 		<div class="space-y-12 md:col-span-4 print:col-span-1 print:grid print:grid-cols-4 print:gap-2 print:space-y-0">
-			Python
-			<Language className="print:hidden" />
+			<EjerciciosPython className="print:hidden" />
 		</div>
 	</main>
 	<KeyboardManager />

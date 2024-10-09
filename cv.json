@@ -86,6 +86,50 @@
         "Built with JavaScript and OpenWeatherMap API",
         "Responsive design"
       ],
+      "url": "/javascript/",
+      "github": "https://github.com"
+    }
+  ],
+  "python": [
+    {
+      "name": "Ejercicio 1 con Python",
+      "description": "Ejercicios realizados en el lenguaje Python.",
+      "highlights": [
+        "Built with React and Tailwind CSS",
+        "Includes a blog and contact form"
+      ],
+      "url": "/python/",
+      "github": "https://github.com"
+    },
+    {
+      "name": "Ejercicio 2 con Python",
+      "description": "Ejercicios realizados en el lenguaje JavaScript.",
+      "highlights": [
+        "Built with JavaScript and OpenWeatherMap API",
+        "Responsive design"
+      ],
+      "url": "/javaScript/",
+      "github": "https://github.com"
+    }
+  ],
+  "javascript": [
+    {
+      "name": "Ejercicio 1 con JavaScript",
+      "description": "Ejercicios realizados en el lenguaje Python.",
+      "highlights": [
+        "Built with React and Tailwind CSS",
+        "Includes a blog and contact form"
+      ],
+      "url": "/python/",
+      "github": "https://github.com"
+    },
+    {
+      "name": "Ejercicio 2 con JavaScript",
+      "description": "Ejercicios realizados en el lenguaje JavaScript.",
+      "highlights": [
+        "Built with JavaScript and OpenWeatherMap API",
+        "Responsive design"
+      ],
       "url": "/javaScript/",
       "github": "https://github.com"
     }

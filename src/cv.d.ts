@@ -3,6 +3,8 @@ export interface CV {
   awards: Array<Awards>;
   projects: Array<Projects>;
   language: Array<Language>;
+  ejerciciospython: Array<Language>;
+  ejerciciosjavascript: Array<Language>;
 }
 
 interface Basics {
@@ -47,6 +49,20 @@ interface Projects {
   github?: string;
 }
 interface Language {
+  name: string;
+  description: string;
+  highlights: Highlight;
+  url: string;
+  github?: string;
+}
+interface EjerciciosPython {
+  name: string;
+  description: string;
+  highlights: Highlight;
+  url: string;
+  github?: string;
+}
+interface EjerciciosJavaScript {
   name: string;
   description: string;
   highlights: Highlight;

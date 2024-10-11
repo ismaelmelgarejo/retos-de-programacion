@@ -9,21 +9,21 @@ print("Operadores Aritméticos")
 print("----------------------")
 a = 10
 b = 3
-print("Suma a + b =", a + b)              # 13
-print("Resta a - b = ", a - b)             # 7
-print("Multiplicación a * b = ", a * b)    # 30
-print("División a / b = ", a / b)          # 3.333...
-print("Módulo a % b = ", a % b)            # 1
-print("Exponenciación a ** b = ", a ** b)   # 1000
-print("División Entera a // b = ", a // b)  # 3
+print("Suma a + b =", a + b)                 # 13
+print("Resta a - b = ", a - b)               # 7
+print("Multiplicación a * b = ", a * b)      # 30
+print("División a / b = ", a / b)            # 3.333...
+print("Módulo a % b = ", a % b)              # 1
+print("Exponenciación a ** b = ", a ** b)    # 1000
+print("División Entera a // b = ", a // b)   # 3
 print(" ")
 
 print("Operadores de Comparación")
 print("-------------------------")
-print("Igual a == b = ", a == b)            # False
-print("Distinto a != b = ", a != b)         # True
-print("Mayor que a > b = ", a > b)         # True
-print("Menor que a < b = ", a < b)         # False
+print("Igual a == b = ", a == b)             # False
+print("Distinto a != b = ", a != b)          # True
+print("Mayor que a > b = ", a > b)           # True
+print("Menor que a < b = ", a < b)           # False
 print("Mayor o igual que a >= b = ", a >= b) # True
 print("Menor o igual que a <= b = ", a <= b) # False
 print(" ")
@@ -32,17 +32,17 @@ print("Operadores Lógicos")
 print("------------------")
 x = True
 y = False
-print("Lógico AND: x and y = ", x and y)      # False
+print("Lógico AND: x and y = ", x and y)     # False
 print("Lógico OR: x or y = ", x or y)        # True
-print("Lógico NOT: not x = ", not x)        # False
+print("Lógico NOT: not x = ", not x)         # False
 print(" ")
 
 print("Operadores a Nivel de Bits")
 print("--------------------------")
 print("AND a nivel de bits: a & b =", a & b) # 2
-print("OR a nivel de bits: a | b = ", a | b)  # 11
-print("XOR a nivel de bits: a ^ b = ", a ^ b) # 9
-print("NOT a nivel de bits: ~a = ", ~a)    # -11
+print("OR a nivel de bits: a | b = ", a | b) # 11
+print("XOR a nivel de bits: a ^ b = ", a ^ b)# 9
+print("NOT a nivel de bits: ~a = ", ~a)      # -11
 print(" ")
 
 print("Operadores de Asignación")
